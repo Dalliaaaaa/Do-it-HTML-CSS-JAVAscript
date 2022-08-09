@@ -62,4 +62,16 @@
     <ins> </ins> : 공동 작업 문서에서 새로운 내용을 삽입
     
     <del> </del> : 공동 작업 문서에서 기존 내용을 삭제
-   
+    
+    목록
+    
+    <ol> </ol> : ordered list(순서 있는 목록)
+    <ul> </ul> : unordered list(순서 없는 목록)
+    
+    <ol type="ㅁ" start="ㅁ"> : <ol>에서 타입과 시작번호를 지정해줄 수 있음
+    
+    <li> </li> : list(항목)
+    
+    <dl> </dl> : description list(설명목록-이름과 값 형태로 된 목록)
+    <dt> </dt> : 이름
+    <dd> </dd> : 값(여러개 가능)
