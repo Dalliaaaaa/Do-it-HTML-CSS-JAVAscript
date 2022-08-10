@@ -95,3 +95,9 @@
     </table>
     
     <th> : 1행의 n열로 열의 설명을 작성(표의 윗부분)
+    
+     표의 구조
+     
+    <thead> </thead> : 표의 제목
+    <tbody> </tbody> : 표의 본문
+    <tfoot> </tfoot> : 표의 요약
