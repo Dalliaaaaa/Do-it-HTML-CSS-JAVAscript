@@ -75,3 +75,21 @@
     <dl> </dl> : description list(설명목록-이름과 값 형태로 된 목록)
     <dt> </dt> : 이름
     <dd> </dd> : 값(여러개 가능)
+    
+    표
+    
+    <table> : 표의 시작과 끝
+    
+      <caption> </caption> : 표제목
+      
+      <tr> : 행
+        <td> (1행 1열) </td> : 행 안에 있는 셀
+        <td> (1행 2열) </td>
+      </tr>
+      
+      <tr>
+        <td> (2행 1열) </td>
+        <td> (2행 2열) </td>
+      </tr>
+   
+    </table>
