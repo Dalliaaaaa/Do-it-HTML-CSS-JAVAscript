@@ -101,3 +101,12 @@
     <thead> </thead> : 표의 제목
     <tbody> </tbody> : 표의 본문
     <tfoot> </tfoot> : 표의 요약
+    
+    행이나 열을 합
+    
+    <rowspan> : 행을 합침
+    <colspan> : 열을 합침
+    
+    ex)
+    <td rowspan= "합칠 셀의 개수"> 셀의 내용</td>
+    <td colspan= "합칠 셀의 개수"> 셀의 내용</td>
