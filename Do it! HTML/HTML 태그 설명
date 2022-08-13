@@ -132,10 +132,17 @@
     오디오와 비디오
     
     <object width="너비" height="높이" data="파일"></object> : 오디오 파일, 비디오, 자바 애플릿, PDF 등 멀티미디어 파일 삽입할 때 사용
-    
     <embed scr="파일 경로" width="너비" hight="높이"> : 대부분 브라우저에서 사용할 수 있고 파일 지정, 닫는 태그가 없음
     
     <audio src="오디오 파일 경로"> </audio> : 배경음악이나 효과음 등 오디오 파일 삽입
     <video src="비디오 파일 경로"> </video> : 비디오 파일 삽입
+    
+    controls : 플레이어 화면애 컨트롤 바를 표시
+    autoplay : 자동 실행
+    loop : 반복 재생
+    muted : 소리 제거
+    preload (preload="auto") : 파일을 어떻게 로딩할 것인지 ex) auto, metadata, none
+    width, height : 너비와 높이 지정
+    poster = "파일 이름" : <video>에서 재생되기 전까지 화면에 표시할 포스터 이미지
     
     
