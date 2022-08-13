@@ -144,3 +144,9 @@
     preload (preload="auto") : 파일을 어떻게 로딩할 것인지 ex) auto, metadata, none
     width, height : 너비와 높이 지정
     poster = "파일 이름" : <video>에서 재생되기 전까지 화면에 표시할 포스터 이미지
+
+
+    하이퍼링크
+    
+    <a href="링크할 주소"> 텍스트 또는 이미지 </a> : 링크 삽입 기본형
+    
