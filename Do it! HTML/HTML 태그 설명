@@ -138,11 +138,9 @@
     <video src="비디오 파일 경로"> </video> : 비디오 파일 삽입
     
     controls : 플레이어 화면애 컨트롤 바를 표시
-    autoplay : 자동 실행
+    autoplay : 자동 실행 (대부분의 웹브라우저에서 오디오나 소리가 있는 비디오 파일은 자동재생을 금지)
     loop : 반복 재생
     muted : 소리 제거
     preload (preload="auto") : 파일을 어떻게 로딩할 것인지 ex) auto, metadata, none
     width, height : 너비와 높이 지정
     poster = "파일 이름" : <video>에서 재생되기 전까지 화면에 표시할 포스터 이미지
-    
-    
