@@ -18,3 +18,6 @@ autocomplete : 자동 완성 기능, on 또는 off로 지정해 줄 수 있음
   <legend> 그룹 이름 </legend> : <fieldset> 태그로 묶은 그룹에 제목을 붙일 수 있음
 
 </fieldset> 
+
+<label> 레이블명 <input> </label> : 입력란 가까이에 아이디나 비밀번호처럼 붙여 놓은 텍스트
+<label for = "id명"> 레이블명 <input id = "id명"></label> : 
