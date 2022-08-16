@@ -68,5 +68,5 @@ maxlength : 텍스트 필드와 비밀번호 필드 입력할 수 있는 최대 
 <input type = "checkbox">
 <input type = "radio"> 
 
-value : 
+value : 서버에게 알려줄 때 넘겨 줄 
 checked : 기본으로 선택해 놓고 싶은 항목
