@@ -23,19 +23,6 @@ autocomplete : 자동 완성 기능, on 또는 off로 지정해 줄 수 있음
 <label for = "id명"> 레이블명 <input id = "id명"></label> : 폼 요소와 레이블
 
 text : 한 줄짜리 텍스트를 입력할 수 있는 텍스트 박스를 넣음
-
-password : 비밀번호를 입력할 수 있는 필드
-search : 검색할 수 있는 필드
-url : URL을 입력할 수 있는 필드
-email : 이메일 주소를 입력할 수 있는 필드
-tel : 전화번호를 입력할 수 있는 필드
-
-number : 숫자를 조절할 수 있는 스핀 박스
-range : 숫자를 조절할 수 있는 슬라이드 막대
-
-time : 사용자 지역 기준으로 시간(시,분,초,분할 초)를 넣음
-datetime : 국제표준시로 설정된 날짜와 시간(연,월,일,시,분,초,분할 초)을 넣음
-datetime-local :  사용자가 있는 지역을 기준으로 날짜와 시간을 넣음
  
 submit : 전송버튼을 넣음
 reset : 리셋버튼을 넣음
@@ -50,6 +37,12 @@ hidden : 사용자에게는 보이지 않지만 서버로 넘겨주는 값이 �
 
 <input type = "text"> : 한 줄짜리 일반 텍스트를 입력할 때
 <input type = "password"> : 입력하는 내용이 화면에 보이지 않게 '*'로 표시
+
+password : 비밀번호를 입력할 수 있는 필드
+search : 검색할 수 있는 필드
+url : URL을 입력할 수 있는 필드
+email : 이메일 주소를 입력할 수 있는 필드
+tel : 전화번호를 입력할 수 있는 필드
 
 size : 화면에 몇글자가 보이도록 할 건지 지정
 value : 텍스트 필드 요소가 화면에 표시될 떄 텍스트 필드에 보여주는 내용
@@ -70,8 +63,11 @@ checked : 기본으로 선택해 놓고 싶은 항목
 
 숫자 입력
 
-<input type = "number"> : 스핀 박스를 통해 숫자를 선택
-<input type = "range"> : 슬라이드 막대를 움직여 숫자를 입력
+<input type = "number">
+<input type = "range">
+
+number : 숫자를 조절할 수 있는 스핀 박스
+range : 숫자를 조절할 수 있는 슬라이드 막대
 
 min : 필드에 입력할 수 있는 최솟값 지정 (기본 최솟값 0)
 max : 필드에 입력할 수 있는 최댓값 지정 (기본 최댓값 100)
@@ -86,3 +82,13 @@ value : 필드에 표시할 초깃값
 date : 사용자 지역 기준으로 날짜(연,월,일)를 넣음 (yyyy-mm-dd)
 month : 사용자 지역 기준으로 날짜(연,일)를 넣음 (yyyy-mm)
 week : 사용자 지역 기준으로 날짜(연,주)를 넣음 (yyyy-dd)
+
+
+시간 입력
+
+<input type="time ¦ datetime ¦ datetime-local">
+
+time : 사용자 지역 기준으로 시간(시,분,초,분할 초)를 넣음
+datetime : 국제표준시로 설정된 날짜와 시간(연,월,일,시,분,초,분할 초)을 넣음
+datetime-local :  사용자가 있는 지역을 기준으로 날짜와 시간을 넣음
+ 
