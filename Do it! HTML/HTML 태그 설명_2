@@ -139,3 +139,8 @@ placeholder : 힌트를 표시해주는 속성
 <input type = 텍스트-입력-필드 readonly( or readonly="readonly" or readonly = "true")> : 읽기 전용 필드
 
 required : 반드시 입력되어야 하는 내용에 지정해주어 필수 필드로 만듦
+
+<textarea> </textarea> : 텍스트를 여러 줄 입력하는 영역
+
+cols : 텍스트 영역의 가로 너비를 문자 단위로 지정 (한글 1글자 = 영문자 2글자)
+rows : 텍스트 영역의 세로 길이를 줄 단위로 지정
