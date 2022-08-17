@@ -137,3 +137,5 @@ hidden : 화면에 보이진 않지만 입력을 마치면 서버로 넘어감, 
 placeholder : 힌트를 표시해주는 속성
 
 <input type = 텍스트-입력-필드 readonly( or readonly="readonly" or readonly = "true")> : 읽기 전용 필드
+
+required : 반드시 입력되어야 하는 내용에 지정해주어 필수 필드로 만듦
