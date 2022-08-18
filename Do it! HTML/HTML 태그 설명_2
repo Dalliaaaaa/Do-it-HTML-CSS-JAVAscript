@@ -159,3 +159,12 @@ rows : 텍스트 영역의 세로 길이를 줄 단위로 지정
 <option>
   ㄴ value : 서버로 넘겨줄 값 지정
      selected : 기본적으로 선택한 항목
+
+
+데이터 목록
+
+<input type = "text" list = "데이터 목록 id">
+<datalist id = "데이터 목록 id"> : 데이터 목록의 시작과 끝
+  <option value="서버로 넘길 값1"> 선택 옵션1 </option> : 각 데이터 옵션을 표시
+  <option value="서버로 넘길 값2"> 선택 옵션2 </option>
+</datalist>
