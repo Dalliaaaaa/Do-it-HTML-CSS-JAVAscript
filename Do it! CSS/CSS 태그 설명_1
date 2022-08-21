@@ -47,3 +47,9 @@ font-size : <절대 크기> ¦ <상대크기> ¦ <크기> ¦ <백분율> : 브�
             단위 : em, rem, ex, px,pt
 font-style : normal ¦ italic ¦ oblique  : 일반적인 형태, 이탤릭체 , 이탤릭체(글꼴을 단지 기울어지게 표시)
 font-weight : normal ¦ bold ¦ bolder ¦ lighter ¦ 100 ¦ ... ¦ 900 ¦   : 기본값, 굵게, 원래보다 더 굵게, 원래보다 더 가늘게, 100~900 사이의 굵기
+
+
+@font-face {
+  font-family: <글꼴 이름>;
+  src: <글꼴 파일> [<글꼴 파일>, <글꼴파일>, ...] 
+} : 웹 폰트 정의
