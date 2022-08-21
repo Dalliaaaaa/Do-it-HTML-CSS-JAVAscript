@@ -8,7 +8,7 @@
 
 text-align : 텍스트 정렬 속성
 background-color : 배경색
-color : <색상>   : 글자색 속성
+color : <색상>   : 글자색 속성 (16진수, rgb(또는 rgba), hsl(또는 hsla))
 
 padding : 내용과 테두리 사이의 간격 여백
 margin : 여백
