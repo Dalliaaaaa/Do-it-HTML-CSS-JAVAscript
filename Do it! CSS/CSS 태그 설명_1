@@ -61,3 +61,5 @@ text-align : start ¦ end ¦ left ¦ right ¦ center ¦ justify ¦ match-parent
 line-height : 줄 간격 조절 (텍스트 박스를 만들었을떄 세로로 가운데로 정렬하려면 height의 값과 같게 하면 됨)
 
 text-decoration : 텍스트에 밑줄을 긋거나 취소선 표시 (하이퍼 링크로 만들어진 밑줄을 지울 수 있음)
+
+text-shadow: none ¦ <가로 거리> <세로 거리> <번짐 정도> <색상>   : 그림자 효과 (양수는 오른쪽 음수은 왼쪽)
