@@ -90,3 +90,9 @@ list-style-type : 순서 없는 목록의 경우 불릿 모양과 번호 스타�
 list-style-image : 불릿 대신 자신이 원하는 이미지 사용
     ㄴlist-style-image: <url(이미지 경로)> ¦ none   : none을 사용하면 이미지가 아닌 list-style-type 에서 지정한 형태로 사용
     
+list-style-position : inside ¦ outside   : 불릿이나 번호의 위치를 들여쓰기
+    ㄴinside : 불릿이나 번호를 기본위치보다 안으로 들여씀
+      outside : 기본값
+      
+list-style : 목록 속성 한번에 표시 (줄여 쓰기)
+    
