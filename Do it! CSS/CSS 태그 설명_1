@@ -41,6 +41,8 @@ id 선택자
 스타일 상속 : 포함하는 태그에서 스타일을 지정하면 포함된 태그에게 전달 (배경색이나 배경 이미지는 스타일 상속이 안 됨)
 
 
+  글꼴
+
 font-family : <글꼴 이름> ¦ [<글꼴 이름>, <글꼴 이름>]  : 글꼴이 없을 때를 대비해 두세개 더 지정
 font-size : <절대 크기> ¦ <상대크기> ¦ <크기> ¦ <백분율> : 브라우저 지정 크기, 부모요소 기준 상대적크기, 브라우저 상관없는 크기, 부모요소 크기 기준으로 백분율 크기
             키워드 : xx-small, x-small, small, medium, large, x-large, xx-large
@@ -54,6 +56,8 @@ font-weight : normal ¦ bold ¦ bolder ¦ lighter ¦ 100 ¦ ... ¦ 900 ¦   : �
   src: <글꼴 파일> [<글꼴 파일>, <글꼴파일>, ...] 
 } : 웹 폰트 정의
 
+
+   텍스트
 
 text-align : start ¦ end ¦ left ¦ right ¦ center ¦ justify ¦ match-parent
             (텍스트 줄의 시작 위치, 텍스트 줄의 끝 위치, 왼쪽, 오른쪽, 가운데, 양쪽, 부모요소에 따라)
@@ -74,6 +78,8 @@ letter-spacing : 글자와 글자 사이의 간격
 word-spacing : 단어와 단어 사이의 간격
  => 단위 : px, em, %
 
+
+  목록
 
 list-style-type : 순서 없는 목록의 경우 불릿 모양과 번호 스타일 지정
     ㄴdisc : 채운 원 모양
