@@ -86,3 +86,7 @@ list-style-type : 순서 없는 목록의 경우 불릿 모양과 번호 스타�
       lower-alpha 또는 lower-latin : 알파벳 소문자
       upper-alpha 또는 upper-alpha : 알파벳 대문자
       none : 불릿이나 숫자를 없앰
+      
+list-style-image : 불릿 대신 자신이 원하는 이미지 사용
+    ㄴlist-style-image: <url(이미지 경로)> ¦ none   : none을 사용하면 이미지가 아닌 list-style-type 에서 지정한 형태로 사용
+    
