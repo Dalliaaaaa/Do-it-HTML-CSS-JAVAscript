@@ -109,4 +109,10 @@ caption-side: top ¦ bottom   : 표 제목 위치
     ㄴtop : 윗부분에 표시, 기본값
       bottom : 아랫부분에 표시
       
-border : 표에 테두리를 
+border : 표와 셀 테두리를 지정
+    ㄴsolid: 실선
+      botted: 점선
+      
+border-spacing: 수평거리 수직거리  : 셀과 셀 사이의 여백 지정
+
+border-collapse (or separate): 표와 셀 테두리를 합쳐 하나로 표시 (또는 따로 표시(기본값))
