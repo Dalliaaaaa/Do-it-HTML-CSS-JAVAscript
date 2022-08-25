@@ -101,4 +101,12 @@ list-style-position : inside ¦ outside   : 불릿이나 번호의 위치를 들
       outside : 기본값
       
 list-style : 목록 속성 한번에 표시 (줄여 쓰기)
-    
+  
+  
+  표
+  
+caption-side: top ¦ bottom   : 표 제목 위치
+    ㄴtop : 윗부분에 표시, 기본값
+      bottom : 아랫부분에 표시
+      
+border : 표에 테두리를 
