@@ -127,7 +127,7 @@ border-collapse (or separate): 표와 셀 테두리를 합쳐 하나로 표시 (
 contents < padding < border < margin
 
 width : 너비
-hight : 높이
+height : 높이
   => <크기> : px나 em
      <백분율> : 부모요소 기준으로 지정
      auto : 너비값과 높잇값이 콘텐츠 양에 따라 자동으로 결정 (기본값)
