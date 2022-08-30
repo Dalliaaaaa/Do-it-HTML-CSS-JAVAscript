@@ -158,4 +158,9 @@ border-style : 테두리 스타일 지정
      dashed : 짧은 직선
      double : 이중선 (두선 사이의 간격을 border-width)
      groove : 창에 조각한 것처럼 표시
-     inset : border-collapse: seperate 
+     ridge : 창에서 튀어나온 것처럼 표시
+     inset : border-collapse: seperate는 테두리가 창에 박혀 있는 것 같음
+           : border-collapse: collapse == groove
+     outset : border-collapse: seperate는 테두리가 창에서 튀어 나온 것 같음
+     
+           : border-collapse: collapse == ridge
