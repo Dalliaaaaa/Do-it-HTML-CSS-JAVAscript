@@ -176,3 +176,5 @@ border-radius : <크기> ¦ <백분율>  : 둥근 테두리로 표시
   top-left, top-right, bottom-left, bottom-right (border-위치-radius 사이에 넣기)
 border-radius: <가로 반지름> / <세로 반지름>;   : 타원으로 만들기
   ㄴborder-위치-radius: <가로 반지름> <세로 반지름>;  : 특정한 꼭짓점만 타원으로 만들 때
+
+margin : <크기> ¦ <백분율> ¦ auto  : 요소 주변의 여백
