@@ -8,3 +8,8 @@ float : 왼쪽이나 오른쪽에 배치
   ㄴ left : 해당 요소를 문서의 왼쪽에 배치
      right : 해당 요소를 문서의 오른쪽에 배치
      none : 좌우 어느쪽에도 배치하지 않음 (기본값)
+
+clear : float 속성을 해제
+  ㄴ left : float: left;를 해제
+     right : float: right;를 해제
+     both : float: left와 float: right;를 해제
