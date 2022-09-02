@@ -13,3 +13,10 @@ clear : float 속성을 해제
   ㄴ left : float: left;를 해제
      right : float: right;를 해제
      both : float: left와 float: right;를 해제
+
+position : 웹 요소 위치를 설정
+  ㄴ left: 기준위치와 요소 사이에 왼쪽으로 얼마나 떨어져 있는지 지정
+     right: 기준위치와 요소 사이에 오른쪽으로 얼마나 떨어져 있는지 지정
+     top: 기준위치와 요소 사이에 위쪽으로 얼마나 떨어져 있는지 지정
+     bottom: 기준위치와 요소 사이에 아래쪽으로 얼마나 떨어져 있는지 지정
+     
