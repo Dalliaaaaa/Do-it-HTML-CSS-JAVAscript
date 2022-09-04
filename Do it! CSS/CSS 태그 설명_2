@@ -26,3 +26,19 @@ position : 웹 요소 위치를 설정
      fixed: 브라우저 창을 기준으로 위치를 지정해 배치
 
 backgroud: url("...")   : 여기에서 이미지를 불러올 때 상위폴더의 경로까지 지정해줘야 함 (만약 상위폴더가 열려있는 상태라면 ../ 으로 표시)
+
+border-box : 박스의 가장 외곽인 테두리까지 적용
+padding-box : 박스에서 테두리를 뺀 패딩 범위까지 적용
+content-box : 박스에서 내용 부분에만 적용
+
+background-image : url('이미지 경로')  : 웹 요소에 배경 이미지를 넣음 (절대경로 또는 상대경로를 넣음)
+
+background-repeat : 배경 이미지의 반복 방법을 지정
+  ㄴrepeat: 브라우저 화면에 가득 찰 때까지 가로와 세로로 반복 (기본값)
+    repeat-x: 브라우저 화면에 가득 찰 때까지 가로로 반복
+    repeat-y: 브라우저 화면에 가득 찰 때까지 세로로 반복
+    no-repeat: 한번만 표시하고 반복하지 않음
+    
+background-position : <수평위치> <수직위치>;  : 배경 이미지의 위치를 조정
+  ㄴ수평 위치 : left ¦ center ¦ right ¦ <백분율> ¦ <길이 값>
+    수직 위치 : top ¦ center ¦ bottom ¦ <백분율> ¦ <길이 값>
